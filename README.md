@@ -17,3 +17,20 @@ The format of this data is of paramount importance since your answers will be us
 
 4. Run main.py 
 
+How to attach lyrics to the midi file:
+1. Install musescore software and import midi file.
+2. Use Ctrl + L on each note to input lyrics.
+3. File -> Export -> MusicXML -> XML and save.
+4. Use this website to generate song: https://www.sinsy.jp/
+
+Result file is in demo_output_results:
+chord_gen.mid: music file with accompaniment
+demo.wav: Generated song
+
+How to attach lyrics file with the accompaniment file:
+1. Access to https://www.bandlab.com/ and create new project.
+2. Import midi file and demo.wav
+3. Adjust sound volume.
+4. Publish.
+Result file is in demo_output_results:
+demo_final.wav
