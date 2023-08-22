@@ -7,4 +7,4 @@ matplotlib
 six
 pretty_midi
 music21
-os
+pyphen

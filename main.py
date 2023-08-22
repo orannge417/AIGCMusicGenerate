@@ -5,7 +5,7 @@
 from outputToArray import outputToArray
 from music21Midi import outputMidi
 from demo import demo
-import os
+# import os
 from time import sleep
 
 dictKey = {1: "C", 2:"C#", 3:"Db", 4:"D", 5:"D#", 6:"Eb",
@@ -18,11 +18,11 @@ if __name__ == '__main__' :
     folderName = input("Name of the folder: \n")
     inputDir = "MIDI//inputs//" + folderName + "//melody.mid"
 
-    try:
-        new_dir_path = 'MIDI/inputs/' + folderName
-        os.mkdir(new_dir_path)
-    except(FileExistsError):
-        pass
+    # try:
+    #     new_dir_path = 'MIDI/inputs/' + folderName
+    #     os.mkdir(new_dir_path)
+    # except(FileExistsError):
+    #     pass
 
     print("Select the corresponding number for the key of the generated song:")
     for key in (dictKey):

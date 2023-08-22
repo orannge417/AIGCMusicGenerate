@@ -12,3 +12,15 @@ complex_chord_test.py
 a.txt
 lookup.xlsx
 myplot.png
+output
+__pycache__
+voice.wav
+voice.xml
+**/*.pyc
+**/__pycache__
+**/*.wav
+**/*.mid
+**/*.xml
+build
+dist
+midi2voice.egg-info
